@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- USB 호스트 기능 사용 권한 -->
+    <uses-feature 
+        android:name="android.hardware.usb.host" 
+        android:required="false" />
+    
+    <!-- USB 액세스 권한 -->
+    <uses-permission android:name="android.permission.USB_PERMISSION" />
+
+</manifest>

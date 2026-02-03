@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- USB 장치 필터 정의 -->
+    <!-- 일반적인 USB Serial 장치들을 위한 설정 -->
+    
+    <!-- FTDI 장치 -->
+    <usb-device vendor-id="1027" /> <!-- 0x0403 -->
+    
+    <!-- Prolific 장치 -->
+    <usb-device vendor-id="1659" /> <!-- 0x067B -->
+    
+    <!-- CP210x 장치 (Silicon Labs) -->
+    <usb-device vendor-id="4292" /> <!-- 0x10C4 -->
+    
+    <!-- CH340 장치 -->
+    <usb-device vendor-id="6790" /> <!-- 0x1A86 -->
+    
+    <!-- Arduino 장치 -->
+    <usb-device vendor-id="9025" /> <!-- 0x2341 -->
+    
+    <!-- 특정 장치를 추가하려면 아래 형식으로 추가
+    <usb-device vendor-id="VENDOR_ID" product-id="PRODUCT_ID" />
+    -->
+    <usb-device vendor-id="0483" product-id="5740" />
+    <!-- 모든 USB Serial 장치 허용 (권장하지 않음)
+    <usb-device class="255" subclass="255" protocol="255" />
+    -->
+</resources>

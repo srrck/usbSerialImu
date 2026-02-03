@@ -1,0 +1,13 @@
+## This file must *NOT* be checked into Version Control Systems,
+# as it contains information specific to your local configuration.
+#
+# Location of the Android SDK. This must be configured for the project to build.
+# For customization when using a Version Control System, please read the
+# header note.
+
+# Android SDK 경로를 설정하세요
+# Windows 예시: sdk.dir=C\:\\Users\\YourName\\AppData\\Local\\Android\\Sdk
+# macOS 예시: sdk.dir=/Users/YourName/Library/Android/sdk
+# Linux 예시: sdk.dir=/home/YourName/Android/Sdk
+
+sdk.dir=YOUR_ANDROID_SDK_PATH_HERE
